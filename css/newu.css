@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.newu {
+  margin: 40px auto 0;
+  width: 50%;
+  height: 400px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.newu h3 {
+  font-weight: bold;
+  font-size: 32px;
+  color: #58bcbc;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.newu form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 40px;
+}
+
+.newu label {
+  display: inline-block;
+  width: 20%;
+  height: 40px;
+  margin-bottom: 60px;
+  padding-left: 20px;
+}
+
+.newu input {
+  width: 60%;
+  height: 40px;
+  border: 1px solid #333;
+  margin-bottom: 60px;
+  font-size: 28px;
+}
+
+.newu span {
+  width: 20%;
+  height: 40px;
+  margin-bottom: 60px;
+  padding-left: 12px;
+}
+
+.newu input:last-child {
+  margin: 0 auto;
+  font-size: 24px;
+  color: #456;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}

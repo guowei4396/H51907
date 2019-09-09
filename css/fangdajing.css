@@ -1,0 +1,133 @@
+ul,
+li {
+    list-style: none;
+}
+
+i {
+    font-style: normal;
+}
+
+
+#fdj {
+    width: 352px;
+    height: 464px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fdj .img {
+    height: 352px;
+    position: relative;
+}
+
+#fdj .img img {
+    width: 352px;
+    height: 352px;
+    border: 1px solid #ccc;
+}
+
+#fdj .img .shade {
+    width: 176px;
+    height: 176px;
+    background-color: rgba(255, 255, 00, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#fdj .img .bigger {
+    position: absolute;
+    overflow: hidden;
+    width: 352px;
+    height: 352px;
+    top: 0;
+    left: 372px;
+    display: none;
+}
+
+#fdj .img .bigger div {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#fdj .img .bigger img {
+    width: 704px;
+    height: 704px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#fdj .botbox{
+    padding-top: 20px;
+    width: 372px;
+    position: relative;
+    height: 82px;
+}
+
+#fdj .leftbot {
+    margin-top: 18px;
+    width: 352px;
+    height: 55px;
+    overflow: hidden;
+    position: relative;
+}
+
+#fdj .prev{
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+    background-color: #ccc;
+    color: #fff;
+}
+
+#fdj .next{
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    top: 0px;
+    right: 0px;
+    z-index: 99;
+    background-color: #666;
+    color: #fff;
+}
+
+#fdj ul {
+    margin-left: 20px;
+    height: 55px;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+#fdj ul li {
+    margin-left: 10px;
+}
+
+#fdj ul li img {
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+}
+
+#fdj .smallPic li:hover img {
+    border-color: #e4393c;
+}
+
+#fdj p {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 30px;
+    color: #6c6c6c;
+}

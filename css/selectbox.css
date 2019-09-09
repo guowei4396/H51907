@@ -1,0 +1,114 @@
+#box {
+    width: 190px;
+    position: relative;
+}
+
+#title {
+    width: 190px;
+    height: 33px;
+    background: #f30213;
+    text-align: center;
+    line-height: 33px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    /* 一次性控制字体大小和行高 */
+    /* font:28px/30px; */
+}
+
+#menu1 {
+    box-shadow: 0 2px 6px 0px #ccc;
+    width: 190px;
+    height: 480px;
+    background-color: #fff;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    display: none;
+    z-index: 9999;
+}
+
+#menu1 #list {
+    padding-top: 5px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width: 190px;
+    height: auto;
+    border-top: 2px solid #f30213;
+}
+
+#menu1 #list dd {
+    width: 100%;
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 20px;
+    color: #333;
+    cursor: pointer;
+}
+
+#menu1 #list dd:hover {
+    background-color: #f0f0f0;
+}
+
+#menu1 #list dd i:hover {
+    color: #f30213;
+}
+
+#menu1 #list #menu2 {
+    flex-shrink: 0;
+    width: 800px;
+    height: 520px;
+    background: #fff;
+    position: absolute;
+    left: 190px;
+    top: 0;
+    background-color: #f9f8f8;
+    display: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-position: 10px bottom;
+    z-index: 9999;
+}
+
+
+#menu2>div {
+    display: flex;
+    line-height: 40px;
+    font-size: 12px;
+    color: #666;
+    height: 40px;
+}
+
+#menu2>div>p:nth-child(1) {
+    width: 100px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+#menu2>div>p:nth-child(2) {
+    width: 700px;
+    border-top: 1px solid #ccc;
+    padding-right: 40px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#menu2>div>p:nth-child(1):hover {
+    color: #f30213;
+}
+
+#menu2>div>p:nth-child(2) i:hover {
+    color: #f30213;
+}
+
+
+#menu2>div:nth-child(1)>p:nth-child(2) {
+    border: none;
+}

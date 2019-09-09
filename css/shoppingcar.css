@@ -1,0 +1,400 @@
+*{
+    box-sizing: border-box;
+}
+
+#shopcar{
+    width: 100%;
+}
+
+#shopcar #head1{
+    width: 100%;
+    background-color: #e3e4e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+#shopcar #head2 .content {
+    width: 1190px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+    align-items: center;
+}
+  
+#shopcar #head2 .content .head_left {
+    font-size: 24px;
+    line-height: 24px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+  
+#shopcar #head2 .content .head_left .logo {
+    width: 160px;
+    height: 50px;
+    background: url(../img_list/logo.png) no-repeat;
+    text-indent: -9999px;
+    background-size: 160px 50px;
+}
+  
+#shopcar #head2 .content .head_left p:last-child {
+    padding-left: 16px;
+    margin-top: 14px;
+}
+
+#shopcar #head2 .content .head_right{
+    font-size: 18px;
+    display: flex;
+}
+  
+#shopcar #head2 .content .head_right input:first-child{
+    color: #333;
+    border: 2px solid #e22; 
+    width: 260px;
+    height: 30px;
+}
+  
+#shopcar #head2 .content .head_right input:last-child {
+    background-color: #e22;
+    color: #fff;
+    width: 60px;
+    height: 30px;
+    font-weight: bold;
+}
+
+#tips{
+    width: 1190px;
+    margin: 10px auto;
+    border: 1px solid #edd28b;
+    background-color: #fffdee;
+    display: flex;
+    height: 60px;
+    padding-left: 20px;
+    color: #f70;
+    align-items: center;
+}
+
+#tips .warn{
+    width: 16px;
+    height: 16px;
+    background-image: url(../img_list/icon16.png);
+    margin-right: 12px;
+}
+
+#tips .denglu{
+    width: 80px;
+    height: 30px;
+    background-color: #e22;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 6px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+#car {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+#car ul,
+#car .footer {
+    display: flex;
+    align-items: center;
+}
+
+#car ul {
+    padding: 16px 0;
+}
+
+#car .cek,
+#car .num {
+    flex: 2;
+}
+
+#car .ginf,
+#car .gcs {
+    flex: 3;
+    padding: 0 20px;
+}
+
+#car .price,
+#car .total,
+#car .del {
+    flex: 1;
+    padding: 0 20px;
+}
+
+#car .header {
+    height: 60px;
+    padding-left: 12px;
+    background-color: #f0f0f0;
+}
+
+#car .ashop {
+    padding-top: 10px;
+    border: 1px solid #666;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+#car .baby,
+#car .shopn {
+    margin-left: 12px;
+}
+
+#car .cek {
+    display: flex;
+    align-items: center;
+}
+
+#car .cek img {
+    width: 120px;
+    height: 120px;
+}
+
+#car .num {
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#car .num .dis,
+#car .num .add {
+    cursor: pointer;
+    width: 20px;
+    border: 1px solid #333;
+}
+#car .num .dis{
+    border-right: none;
+}
+#car .num .add{
+    border-left: none;
+}
+
+#car .num .jian {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+#car .ashop .gcs {
+    color: #999;
+}
+
+#car .ashop .price,
+#car .ashop .total {
+    font-weight: bold;
+}
+
+#car .ashop .total {
+    color: #ff4400;
+}
+
+#car .ashop .del,
+#car .ashop .ginf,
+#car .ashop .shopName {
+    cursor: pointer;
+}
+
+#car .ashop .del:hover,
+#car .ashop .ginf:hover,
+#car .ashop .shopName:hover {
+    color: #ff4400;
+    text-decoration: underline;
+}
+
+#car .footer {
+    display: flex;
+    justify-content: flex-end;
+    width: 1190px;
+    background-color: #ccc;
+    height: 60px;
+    position: relative;
+}
+
+#car .footer p:nth-child(1) {
+    padding: 0 14px;
+    font-size: 14px;
+}
+
+#car .footer span {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ff4400;
+}
+
+#car .footer p:nth-child(2) {
+    padding: 0 16px;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#car .footer a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    width: 120px;
+    height: 100%;
+    background-color: #707070;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#car .footer .active {
+    background-color: #ff4400;
+}
+
+#car label {
+    margin-left: 8px;
+}
+
+#car img {
+    margin-left: 8px;
+}
+#bott{
+    margin-top: 40px;
+    width: 100%;
+    height: 539px;
+    background-image: url(../img_list/bottom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #eaeaea;
+}
+
+#car .footer #delchc{
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f70;
+}
+
+#car .footer #delall{
+    position: absolute;
+    top: 0;
+    left: 120px;
+    background-color: #f70;
+}
+
+#shopcar #dlk .smark{
+    display: none;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.32);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 99999;
+}
+
+#shopcar #dlk .dlbox{
+    display: none;
+    width: 420px;
+    height: 400px;
+    background-color: #fff;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 100000;
+}
+
+#shopcar #dlk .dlbox h2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 32px;
+}
+
+#shopcar #dlk .dlbox h2 span{
+    margin: 0 30px;
+}
+
+#shopcar #dlk .dlbox h2 .regbutt{
+    cursor: pointer;
+}
+
+#shopcar #dlk .dlbox h2 .regbutt:hover{
+    color: #e22;
+}
+
+#shopcar #dlk .dlbox li {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+#shopcar #dlk .dlbox li label{
+    display: inline-block;
+    padding-right: 20px;
+    width: 100px;
+    text-align: right;
+}
+
+#shopcar #dlk .dlbox li input{
+    display: inline-block;
+    border: 1px solid #333;
+    height: 24px;
+    width: 240px;
+}
+
+#shopcar #dlk .dlbox li .loginbutt{
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    line-height: 60px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #f70;
+    margin-top: 42px;
+    cursor: pointer;
+}
+
+#shopcar #dlk .dlbox a{
+    display: block;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    color: #e22;
+    font-weight: bold;
+}
+
+#shopcar #car .main .kongkong{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shopcar #car .main .kongkong img{
+    width: 71px;
+    height: 55px;
+}
+#shopcar #car .main .kongkong p{
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+}
+#shopcar #car .main .kongkong p a{
+    margin-top: 8px;
+    color: #12bcc2;
+}
